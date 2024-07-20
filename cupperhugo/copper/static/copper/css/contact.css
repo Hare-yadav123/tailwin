@@ -1,0 +1,133 @@
+.con-row{
+    display: flex;
+    margin-top: 20px;
+    word-spacing: normal;
+    margin-left: 10px;
+    width: 100%;
+}
+.head{
+    overflow: hidden;
+    flex: 0 0 50%;
+    max-width: 50%;
+    /* padding: 0 -15px; */
+}
+.contact{
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.contact h3{
+    font-size: 50px
+
+}
+.contact a{
+    text-decoration: none;
+    color: black;
+}
+.disc{
+    margin-top: 30px;
+}
+.disc h4{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 10px;
+    font-size: 20px;
+}
+.disc p{
+    align-items: center;
+    text-align: center;
+    
+}
+
+.ct-form{
+    width: 100%;
+    margin: 10%;
+    padding: 10px;
+    border: 1px solid #c0baba;
+    border-radius: 4px;
+    align-items: center;
+}
+
+.ct-form:focus {
+    border-color: #4CAF50;
+    box-shadow: 0 0 8px 0 #4CAF50;
+}
+input{
+    align-items: center;
+    padding: 10px;
+}
+input:hover{
+    background-color: red;
+}
+
+.ct-detail{
+    overflow: hidden;
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding: 0 -15px;
+}
+
+.add{
+    margin-top: 10%;
+    text-align: center;
+}
+.add input{
+    background-color: red;
+    border-radius: 5px;
+}
+.futoor{
+    margin-top: 10%;
+    width: 100%;
+    display: flex;
+    margin-top: 30px;
+    word-spacing: normal;
+    /* margin: 10px 10px; */
+}
+
+.copper{
+    overflow: hidden;
+    max-width: 25%;
+    flex: 0 0 25%;
+    padding: 0 -15px;
+
+}
+.link{
+    overflow: hidden;
+    max-width: 25%;
+    flex: 0 0 25%;
+    padding: 0 -15px;
+}
+.link a{
+    text-decoration: none;
+}
+.scl{
+    overflow: hidden;
+    max-width: 25%;
+    flex: 0 0 25%;
+    padding: 0 -15px;
+
+}
+.scl a{
+    text-decoration: none;
+}
+.subc{
+    overflow: hidden;
+    max-width: 25%;
+    flex: 0 0 25%;
+    padding: 0 -15px;
+
+}
+.subc a{
+    margin-bottom: 5px;
+    padding: 10px;
+    border: 1px solid red;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+}
+
+.subc a i{
+    padding: 20px;
+    border: 2px sloid red;
+}

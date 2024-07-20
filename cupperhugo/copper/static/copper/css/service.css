@@ -1,0 +1,168 @@
+
+/*---------------header----------- */
+.team{
+    text-align: center;
+    /* margin-top: 10%; */   
+}
+
+.team h3{
+    font-size: 50px
+
+}
+.team a{
+    text-decoration: none;
+    color: black;
+}
+.mid-head{
+    margin-top: 30px;
+}
+.mid-head h4{
+    margin-top: 10%;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+/* ----------button----------- */
+
+/* ----------------image---------- */
+.photo-section{
+    width: 100%;
+    margin-top: 10%;
+    display: flex;
+    /* background-color: white; */
+   
+}
+.photo{
+    border: 1px;
+}
+.pt1{
+    max-width: 35%;
+    padding: 0 0 -15px;
+    flex: 0 0 35%;
+    overflow: hidden;
+    text-align: center;
+
+}
+
+.pt1 .photo img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    cursor: pointer;
+    border: 1px;
+}
+.pt1 .photo p{
+    margin-left: 3%;
+    margin-right: 3%;
+    font-weight: lighter;
+}
+.pt2{
+    max-width: 35%;
+    padding: 0 0 -15px;
+    flex: 0 0 35%;
+    overflow: hidden;
+    text-align: center;
+}
+
+.pt2 .photo img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%; 
+}
+
+.pt2 .photo img:hover{
+    background-color: red;
+}
+
+.pt3{
+    max-width: 35%;
+    padding: 0 0 -15px;
+    flex: 0 0 35%;
+    overflow: hidden;
+    text-align: center;
+}
+
+.pt3 .photo img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+} 
+
+
+/*------------------- footer------------------- */
+.futoor{
+    margin-top: 10%;
+    width: 100%;
+    display: flex;
+    word-spacing: normal;
+    /* margin: 10px 10px; */
+    cursor: pointer;
+}
+.add{
+    background-color: white;
+
+}
+.add p{
+    margin-top: 10%;
+    text-align: center;
+    font-size: 35px;
+}
+.add input{
+    background-color: red;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+.add input:hover{
+    background-color: green;
+}
+
+.copper{
+    overflow: hidden;
+    max-width: 25%;
+    flex: 0 0 25%;
+    padding: 0 -15px;
+
+}
+.link{
+    overflow: hidden;
+    max-width: 25%;
+    flex: 0 0 25%;
+    padding: 0 -15px;
+}
+.link a{
+    text-decoration: none;
+}
+.scl{
+    overflow: hidden;
+    max-width: 25%;
+    flex: 0 0 25%;
+    padding: 0 -15px;
+
+}
+.scl a{
+    text-decoration: none;
+}
+.subc{
+    overflow: hidden;
+    max-width: 25%;
+    flex: 0 0 25%;
+    padding: 0 -15px;
+    cursor: pointer;
+}
+
+
+.subc a{
+    margin-bottom: 5px;
+    padding: 10px;
+    border: 1px solid red;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+}
+
+.subc a i{
+    padding: 20px;
+    border: 2px sloid red;
+}

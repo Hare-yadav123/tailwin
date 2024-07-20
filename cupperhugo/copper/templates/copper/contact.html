@@ -1,0 +1,80 @@
+{% extends 'copper/base.html'  %}
+{% load static %}
+{% block content %}
+
+<div class="contact" style=" border-radius: 5%; margin-left:10px  ; margin:10% 10% ;">
+    <h3>Contact Us</h3>
+    <a href="/home">Home</a>  / <span style="color: red;">Contact Us</span>
+</div>
+
+<div class="disc" style="margin-top: 10%;">
+    <h4 class="text-4xl">Contact us</h4>
+    <p class="ml-80 mr-80">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique ex voluptas nostrum accusamus? Omnis ullam dolorem iure, harum consequuntur, quam obcaecati distinctio, ratione praesentium facere mollitia aliquam. Ut, laudantium accusantium.</p>
+</div> 
+
+<div class="con-row">
+    <div class="mt-16 ml-20"  style="background-color: white; border-radius: 10px;">
+        <h3 class="text-center text-4xl">Contact Us </h3>
+        <div class="text-center ml-32 w-full">
+            <form action="" class="form form-control text-center w-full" method="POST">
+                {% csrf_token %}
+                {{ form.as_p }}
+                <input type="submit" class="btn" value="submit">
+            </form>
+        </div>
+    </div>
+
+    <div class="ct-detail mt-16" style="background-color: white; border-radius: 10px;">
+        <h3 class="text-center text-4xl">our contact information</h3>
+        <div class="info">
+            <ul class="mt-32 text-center">
+                <li>hareyadav2546@gmail.com</li>
+                <li>6588992103</li>
+                <li>Gt-No:45 Wagholi Pune Maharastra </li>
+            </ul>
+        </div>
+
+    </div>
+</div>
+
+
+<div class="add" >
+    <address>
+        <p>Join 75,000+ Growing Business That <br> <span>Use Copper To Their Brand</span><br> <br> <br>
+        <a href=""><input class="btn" type="submit" value="Get start with us >"></a>
+    </address>
+</div>
+<hr>
+
+<div class="grid grid-cols-4 bg-gray-200">
+    <div class="bg-gray-100">
+      <h3 class="text-lg">cupper</h3>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque, vero!</p>
+    </div>
+
+    <div class="bg-gray-100">
+      <h3 class="text-lg">sociallink</h3>
+      <a href=""><i class="fa fa-facebook-square hover:underline" style="color: blue;">facebook</i></a><br>
+      <a class="hover:underline" href=""><i class="fa fa-instagram hover:underline"  style="color:rgba(red, green, blue, alpha);"></i></a>instagram<br>
+      <a class="hover:underline" href=""><i class="fa fa-youtube-play hover:underline" style="color: #ff0000;"></i>Youtube</a><br>
+      <a href=""><i class="fa fa-whatsapp hover:underline" style="color:green;"></i></a>whatsapp<br>
+    </div>
+
+    <div class="bg-gray-100 ">
+      <h3 class="text-lg">Quick-link</h3>
+      <a class="hover:underline" href="">fpq</a><br>
+      <a  class="hover:underline" href="">Term&condition</a><br>
+      <a  class="hover:underline" href="">Privacy policy</a><br>
+    </div>
+
+    <div class="bg-gray-100">
+      <h3 class="text-lg">Let's Subscribe your mail</h3>
+      <input class="rounded" type="email" name="" id="" placeholder="write your mail">
+      <a class="border-2 border-gray-200 py-3 px-6 bg-red-500 rounded" href="/signup/"><i class="fa fa-long-arrow-right"></i></a>
+    </div>
+
+</div>
+
+    
+
+{% endblock content %}
